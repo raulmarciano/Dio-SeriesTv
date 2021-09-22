@@ -1,6 +1,6 @@
-namespace Dio_SeriesTv.Enum
+namespace Dio_SeriesTv.Enums
 {
-    public enum EGenero
+    public enum EGenre
 	{
 		Acao = 1,
 		Aventura = 2,

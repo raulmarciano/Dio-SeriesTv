@@ -2,10 +2,10 @@ namespace Dio_SeriesTv.Entities
 {
     public abstract class EntityBase
     {
-        public int Id { get; private set; }
-        public bool Deleted { get; private set; } = false;
+        public int Id { get; protected set; }
+        public bool Deleted { get; protected set; } = false;
 
-        public void SetIdByInsert(int id)
+        public int SetId(int id)
             => Id = id;
         
         public void DeleteEntity()

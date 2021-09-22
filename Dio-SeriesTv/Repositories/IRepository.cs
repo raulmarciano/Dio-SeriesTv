@@ -1,5 +1,4 @@
 using System.Collections.Generic;
-using Dio_SeriesTv.Entities;
 
 namespace Dio_SeriesTv.Repositories
 {
